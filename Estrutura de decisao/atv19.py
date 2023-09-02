@@ -10,18 +10,23 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 num = abs(int(input("digite um numero qualquer de 1 a 1000: ")))
 
 if 0 < num < 1000:
-    # resto1 = num % 100
-    # centenas = int((num - resto1)/100)
-    # unidades = resto1 % 10
-    # dezenas = int((resto1 - unidades)/10)
-    centenas, dezenas, unidades = map(int, str(num))
-    if centenas == 0 and dezenas == 0:
-        print(f'{unidades} unidades')
-        if unidades == 0:
-            print('zero')
-    elif centenas == 0:
-        print(f'{dezenas} dezenas e {unidades}unidades')
+    resto1 = num % 100
+    centenas = int((num - resto1)/100)
+    unidades = resto1 % 10
+    dezenas = int((resto1 - unidades)/10)
+    # centenas, dezenas, unidades = map(int, str(num))
+
+    resultado = []
+
+    if centenas > 0:
+        resultado.append(f'{centenas} centena{"s" if centenas > 1 else "":}{", " if dezenas > 0 else " ":}')
+    if dezenas > 0:
+        resultado.append(f'{dezenas} dezena{"s" if dezenas > 1 else "":} {"e " if unidades > 0 else " ":}')
+    if unidades > 0:
+        resultado.append(f'{unidades} unidade{"s" if unidades > 1 else ""}.')
     
-    print(centenas, dezenas, unidades)
+    print("".join(resultado))
+    
+    
 else:
     print("O numero deve estar entre 1 e mil")
