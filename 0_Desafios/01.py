@@ -6,19 +6,20 @@ faça um algoritimo que esqreva o nome e a media de cada aluno e a media geral d
 
 cont_aluno = 0
 nomes = ''
-notas = 0
+notas_turma = 0
 cont_notas = 0
 
-while cont_aluno < 3:
-    nome = input("diginte nome:")
+while cont_aluno < 2:
+    nome = input("diginte nome: ")
     nome += '-'
     nomes += nome
-    cont_notas += cont_notas
-    notas += notas
     while cont_notas < 2:
-        nota = abs(float(input("digite as 20 notas do aluno")))
-        notas += nota
+        nota = abs(float(input("digite as 20 notas do aluno: ")))
+        notas_turma += nota
         cont_notas += 1
+    cont_notas = 0
     cont_aluno += 1
 
-print(nomes.split('-'))
+print(f'notas > {notas_turma}\n nomes > {nomes.split("-")}')
+media_turma = notas_turma / cont_aluno
+print(media_turma)
