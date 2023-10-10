@@ -6,7 +6,7 @@ Lista de atividades
 
 1. [EstruturaSequencial](https://wiki.python.org.br/EstruturaSequencial) -- feito
 2. [EstruturaDeDecisao](https://wiki.python.org.br/EstruturaDeDecisao) -- fazendo
-3. [EstruturaDeRepeticao](https://wiki.python.org.br/EstruturaDeRepeticao) -- A fazer
+3. [EstruturaDeRepeticao](https://wiki.python.org.br/EstruturaDeRepeticao) -- fazendo
 4. [ExerciciosListas](https://wiki.python.org.br/ExerciciosListas) -- A fazer
 5. [ExerciciosFuncoes](https://wiki.python.org.br/ExerciciosFuncoes) -- A fazer
 6. [ExerciciosComStrings](https://wiki.python.org.br/ExerciciosComStrings) -- A fazer
