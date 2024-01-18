@@ -3,6 +3,7 @@ Encontrar números primos é uma tarefa difícil. Faça um programa que gera uma
 entre 1 e um número inteiro informado pelo usuário
 """
 
+# TODO FAZER ESSA
 num = abs(int(input('digite um numero: ')))
 
 # cont = 1
