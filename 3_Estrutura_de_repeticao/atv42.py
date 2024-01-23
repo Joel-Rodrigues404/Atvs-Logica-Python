@@ -9,11 +9,11 @@ while True:
     if num > 0:
         if num < 25:
             interv_1 += 1
-        elif num > 26 or num < 50:
+        elif num > 26 and num < 50:
             interv_2 += 1
-        elif num > 51 or num < 75:
+        elif num > 51 and num < 75:
             interv_3 += 1
-        elif num > 76 or num < 100:
+        elif num > 76 and num < 100:
             interv_4 += 1
         else:
             continue
