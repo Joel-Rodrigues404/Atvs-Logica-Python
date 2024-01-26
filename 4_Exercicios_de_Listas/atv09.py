@@ -3,5 +3,3 @@ Faça um Programa que leia um vetor A com 10 números inteiros, calcule e mostre
 """
 
 print(sum([abs(int(input(f'digite numeros: '))) ** 2 for x in range(10)]))
-# quadrados = [x**2 for x in range(10)]
-# print(quadrados)
