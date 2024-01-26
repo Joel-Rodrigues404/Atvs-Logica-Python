@@ -5,3 +5,5 @@ Imprima a idade e a altura na ordem inversa a ordem lida.
 
 idades, alturas = [abs(float(input("digite a idade: "))) for x in range(5)], [abs(float(input("digite a altura: "))) for y in range(5)]
 
+print(idades[::-1])
+print(alturas[::-1])
