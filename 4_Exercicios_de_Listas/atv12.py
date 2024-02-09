@@ -10,12 +10,13 @@ maior13 = 0
 for x in range(2):
     idade = abs(int(input("digite a idade: ")))
     idades.append(idade)
-    if idade >= 13:
-        maior13 +=1
     alturas.append(abs(int(input("digite a Altura: "))))
 
-media_alturas = (sum(alturas))/len(alturas)
+print(alturas)
+media_alturas = (sum(alturas)) / len(alturas)
 
 for idade, altura in zip(idades, alturas):
     if idade >= 13 and altura <= media_alturas:
         maior13 += 1
+
+print(maior13)
