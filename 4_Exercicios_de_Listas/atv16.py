@@ -11,33 +11,3 @@ $900 - $999
 $1000 em diante
 Desafio: Crie ma fórmula para chegar na posição da lista a partir do salário, sem fazer vários ifs aninhados.
 """
-
-
-def calcular_salario(vendas_brutas):
-    return 200 + (0.09 * vendas_brutas)
-
-
-def determinar_intervalo(salario):
-    if salario < 1000:
-        return (salario - 200) // 100
-    else:
-        return 8
-
-
-contadores = [0] * 9
-
-vendas = [3000, 2500, 4000, 1500, 6000]  # Exemplo de vendas brutas dos vendedores
-
-for vendas_brutas in vendas:
-    salario = calcular_salario(vendas_brutas)
-    indice = int(determinar_intervalo(salario))
-    if indice != -1:
-        contadores[indice] += 1
-
-print(contadores)
-
-for i, contador in enumerate(contadores):
-    if i < 8:
-        print(f"${200 + i*100} - ${299 + i*100}: {contador} vendedores")
-    else:
-        print(f"$1000 em diante: {contador} vendedores")
