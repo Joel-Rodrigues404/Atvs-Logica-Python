@@ -1,9 +1,10 @@
 vetor = [x for x in range(0, 100, 2)]
-vetor2 = []
+vetor2: list[int] = []
 print(vetor)
 
 
 def busca_binaria(lista, item, inicio=0, fim=None):
+    """Busca Binaria"""
     if fim is None:
         fim = len(lista) - 1
     if inicio <= fim:
