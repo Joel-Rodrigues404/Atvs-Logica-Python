@@ -25,22 +25,29 @@ from typing import overload, Union, Tuple  # noqa E402
 
 
 @functools.singledispatch
-def soma(a, b):
-    pass
+def soma(a: Union[int, str], b: Union[int, str], verbose=False):
+    raise NotImplementedError(
+        f"Type {type(a) and type(b)} Not suported for a function"
+    )  # noqa E501
 
 
 @soma.register(int)
-def s(a, b):
+def s(a, b, verbose=False):
+    if verbose:
+        print("Como são numeros vamos somalos")
     return f"{a + b}  integer"
 
 
 @soma.register(str)
-def s(a, b):  # noqa F811
+def s(a, b, verbose=False):  # noqa F811
+    if verbose:
+        print("Como são strings vamos concatenalas")
     return f"{a + b} string"
 
 
-print(soma("3", "3"))  # saida 33 string
-print(soma(3, 3))  # 6  integer
+# print(soma("3", "3"))  # saida 33 string
+# print(soma(3, 3))  # 6  integer
+# print(soma(2.2, 2.3, verbose=True))  # type: ignore[arg-type]
 
 
 class Processor:
