@@ -1,7 +1,7 @@
 """
-Em uma eleição presidencial existem quatro candidatos. Os votos são informados por meio de código. 
+Em uma eleição presidencial existem quatro candidatos. Os votos são informados por meio de código.
 Os códigos utilizados são:
-1 , 2, 3, 4  - Votos para os respectivos candidatos 
+1 , 2, 3, 4  - Votos para os respectivos candidatos
 (você deve montar a tabela ex: 1 - Jose/ 2- João/etc)
 5 - Voto Nulo
 6 - Voto em Branco

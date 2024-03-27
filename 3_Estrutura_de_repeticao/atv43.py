@@ -13,20 +13,26 @@ Faça um programa que leia o código dos itens pedidos e as quantidades desejada
 
 cachorro_quente = 1.20
 bauru_simple = 1.30
-bauru_ovo = 1,50
+bauru_ovo = 1, 50
 hamburger = 1.20
 cheeseburger = 1.30
 refri = 1
 total = 0
 while True:
-    pedido = abs(int(input(f"""digite o codigo do pedido que deseja: 
+    pedido = abs(
+        int(
+            input(
+                f"""digite o codigo do pedido que deseja: 
 Especificação   Código  Preço
 Cachorro Quente 100     R$ 1,20
 Bauru Simples   101     R$ 1,30
 Bauru com ovo   102     R$ 1,50
 Hambúrguer      103     R$ 1,20
 Cheeseburguer   104     R$ 1,30
-Refrigerante    105     R$ 1,00 \n: """)))
+Refrigerante    105     R$ 1,00 \n: """
+            )
+        )
+    )
 
     quantidade = abs(int(input("digite a quantidade: ")))
 
