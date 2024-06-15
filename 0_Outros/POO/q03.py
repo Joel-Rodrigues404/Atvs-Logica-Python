@@ -17,19 +17,22 @@ class Aluno:
     def adicionar_nota(self, nota) -> None:
         self.notas.append(nota)
 
-    def calcular_media(self):
+    def calcular_media(self) -> float | str:
         if len(self.notas) > 0:
             media = sum(self.notas) / len(self.notas)
             return media
         else:
             return "nenhuma nota adicionada"
 
-    def verificar_situacao(self):
+    def verificar_situacao(self) -> str | None:
         media = self.calcular_media()
+        if isinstance(media, str):
+            return None
         if media >= 6:
             return f"aprovado com media {media}"
         elif media < 6:
             return f"Reprovado com media {media}"
+        return None
 
     def get_matricula(self) -> int:
         return self.__matricula

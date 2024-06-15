@@ -43,26 +43,34 @@ class LojaVirtual:
         self.__carrinho: list = []
         self.total = 0
 
-    def cadastrar_produto(self, produto) -> None:
-        self.__produtos.append(produto)
+    def cadastrar_produto(self, produto: Produto | ProdutoComDesconto) -> None:
+        if isinstance(produto, (Produto, ProdutoComDesconto)):
+            self.__produtos.append(produto)
+        else:
+            print("Não e um produto")
 
-    def adicionar_no_carrinho_compras(self, produto) -> None:
-        self.__carrinho.append(produto)
+    def adicionar_no_carrinho_compras(
+        self, produto: Produto | ProdutoComDesconto
+    ) -> None:
+        if isinstance(produto, (Produto, ProdutoComDesconto)):
+            self.__carrinho.append(produto)
+        else:
+            print("Não e um produto")
 
-    def valor_total_compra(self) -> int:
+    def valor_total_compra(self) -> int | float:
         self.total = 0
         # Itens do carrinho são instacias de objetos que contem valor
         for x in self.__carrinho:
             self.total += x.calcular_preco()
         return self.total
 
-    def get_produtos(self) -> list:
+    def get_produtos(self) -> list[str]:
         aux = []
         for produto in self.__produtos:
             aux.append(produto.get_produto())
         return aux
 
-    def get_carrinho(self) -> list:
+    def get_carrinho(self) -> list[str]:
         aux = []
         for produto in self.__carrinho:
             aux.append(produto.get_produto())
@@ -72,13 +80,26 @@ class LojaVirtual:
         return f"Produtos: {', '.join(self.get_produtos())}"
 
 
+# CRIA PRODUTOS
 produto01 = Produto("produto01", 10)
 produto02 = ProdutoComDesconto("produto02", 10, 10)
+
+# CRIA LOJA VIRTUAL
 loja_virtual = LojaVirtual()
+
+# CADASTRA PRODUTOS NA LOJA
 loja_virtual.cadastrar_produto(produto01)
 loja_virtual.cadastrar_produto(produto02)
+
+# ADICIONA PRODUTOS AO CARRINHO
 loja_virtual.adicionar_no_carrinho_compras(produto01)
 loja_virtual.adicionar_no_carrinho_compras(produto02)
+
+# MOSTRA PRODUTOS CADASTRADOS NA LOJA
 print(loja_virtual.get_produtos())
+
+# MOSTRA PRODUTOS ADICIONADOS AO CARRINHO
 print(loja_virtual.get_carrinho())
+
+# MOSTRA O VALOR TOTAL DOS ITEMS DO CARRINHO
 print(loja_virtual.valor_total_compra())

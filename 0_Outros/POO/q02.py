@@ -12,7 +12,7 @@ class ContaBancaria:
         self.__endereco = endereco
         self.__saldo = saldo
 
-    def deposito(self, valor):
+    def deposito(self, valor) -> None:
         # Existe saldo negativo
         if valor > 0:
             self.__saldo += valor
@@ -20,8 +20,8 @@ class ContaBancaria:
         else:
             print("Valor de deposito invalido")
 
-    def saque(self, valor):
-        if valor > 0 and self.__saldo >= valor:
+    def saque(self, valor) -> None:
+        if 0 < valor <= self.__saldo:
             self.__saldo -= valor
             print(f"Saque de R$ {valor} realizado com sucesso")
         else:
