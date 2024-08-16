@@ -8,8 +8,16 @@ elemento da sequência anterior. A sequência de Fibonacci é dada pelos valores
 cont = 1
 aux = 1
 num = 1
-while cont <= 15:
-    print(num, end=", ")
-    aux = num - aux
-    num += aux
+
+print(1)
+while cont <= 1000:
+    if cont == 1:
+        div = 1
+    else:
+        div = num / aux
+
+    print(f"{num} / {aux} == {div:.5f}", end="\n")
+
+    aux, num = num, num + aux
+
     cont += 1
