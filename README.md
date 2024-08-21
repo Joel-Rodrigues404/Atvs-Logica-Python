@@ -8,7 +8,7 @@ Lista de atividades
 2. [EstruturaDeDecisao](https://wiki.python.org.br/EstruturaDeDecisao) -- fazendo
 3. [EstruturaDeRepeticao](https://wiki.python.org.br/EstruturaDeRepeticao) -- fazendo
 4. [ExerciciosListas](https://wiki.python.org.br/ExerciciosListas) -- fazendo
-5. [ExerciciosFuncoes](https://wiki.python.org.br/ExerciciosFuncoes) -- A fazer
+5. [ExerciciosFuncoes](https://wiki.python.org.br/ExerciciosFuncoes) -- fazendo
 6. [ExerciciosComStrings](https://wiki.python.org.br/ExerciciosComStrings) -- A fazer
 7. [ExerciciosArquivos](https://wiki.python.org.br/ExerciciosArquivos) -- A fazer
 8. [ExerciciosClasses](https://wiki.python.org.br/ExerciciosClasses) -- A fazer
