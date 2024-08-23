@@ -12,4 +12,6 @@ soma_mult = 1
 for x in lista:
     soma_mult = soma_mult * x
 
-print(f'A soma e: {sum(lista)} \nA multiplicação e {soma_mult} \nOs numeros foram {[x for x in lista]}')
+print(
+    f"A soma e: {sum(lista)} \nA multiplicação e {soma_mult} \nOs numeros foram {[x for x in lista]}"
+)

@@ -12,4 +12,4 @@ for x in range(1, 101):
 
 print(lances_dado)
 for i, x in enumerate(lances_dado):
-    print(f'O numero {i + 1} caiu {len(x)} vezes')
+    print(f"O numero {i + 1} caiu {len(x)} vezes")

@@ -7,10 +7,10 @@ sexo = str(input("Digite seu sexo [M/F]: "))
 altura = abs(float(input("digite sua altura metros: ")))
 
 if "Mm" in sexo:
-    peso_ideal_M = (72.7*altura) - 58
+    peso_ideal_M = (72.7 * altura) - 58
     print(peso_ideal_M)
 elif "Ff" in sexo:
-    peso_ideal_F = (62.1*altura) - 44.7
+    peso_ideal_F = (62.1 * altura) - 44.7
     print(peso_ideal_F)
 else:
-    print(f'Digite uma resposta entre [M/F] para a resposta do sexo')
+    print('Digite uma resposta entre [M/F] para a resposta do sexo')

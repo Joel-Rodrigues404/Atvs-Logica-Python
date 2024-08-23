@@ -7,6 +7,6 @@ nome = input("digite seu nome: ")
 senha = input("digite sua senha: ")
 
 while senha == nome or nome == senha:
-    print(f'Erro a senha n pode ser igual ao nome nem nome igual a senha')
+    print("Erro a senha n pode ser igual ao nome nem nome igual a senha")
     nome = input("digite seu nome: ")
-    senha = input("digite sua senha: ") 
+    senha = input("digite sua senha: ")

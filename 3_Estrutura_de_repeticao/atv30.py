@@ -11,4 +11,4 @@ Panificadora Pão de Ontem - Tabela de preços
 """
 
 for x in range(1, 51):
-    print(f'{x} - {x * 0.18:.2f}')
+    print(f"{x} - {x * 0.18:.2f}")

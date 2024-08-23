@@ -6,8 +6,8 @@ temperaturas.
 
 cont = 0
 soma = 0
-menor = float('inf')
-maior = float('-inf')
+menor = float("inf")
+maior = float("-inf")
 while True:
     temp = float(input("digite as temperaturas [10000] para parar: "))
     if temp == 10000:
@@ -20,8 +20,5 @@ while True:
     soma += temp
 
 
-
-media = soma/cont
-print(f'Maior {maior} menor {menor} media {media}')
-
-
+media = soma / cont
+print(f"Maior {maior} menor {menor} media {media}")

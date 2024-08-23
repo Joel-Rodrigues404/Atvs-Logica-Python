@@ -6,8 +6,8 @@ Faça um Programa que peça um número inteiro e determine se ele é par ou impa
 num = abs(int(input("digite um numero: ")))
 
 if num % 2 == 0:
-    print(f'O numero {num} e par')
+    print(f"O numero {num} e par")
 elif num % 2 != 0:
-    print(f'O numero {num} e impar')
+    print(f"O numero {num} e impar")
 else:
-    print('erro')
+    print("erro")

@@ -11,5 +11,3 @@ for x in range(1, expo + 1):
     aux *= base
 
 print(aux)
-    
-

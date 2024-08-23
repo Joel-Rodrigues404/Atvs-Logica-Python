@@ -11,7 +11,7 @@ Salário Bruto até 2500 (inclusive) - desconto de 10%
 Salário Bruto acima de 2500 - desconto de 20% Imprima na tela as informações, dispostas conforme o exemplo abaixo. 
 No exemplo o valor da hora é 5 e a quantidade de hora é 220.
         Salário Bruto: (5 * 220)        : R$ 1100,00
-        (-) IR (5%)                     : R$   55,00  
+        (-) IR (5%)                     : R$   55,00
         (-) INSS ( 10%)                 : R$  110,00
         FGTS (11%)                      : R$  121,00
         Total de descontos              : R$  165,00
@@ -23,7 +23,7 @@ horas = abs(float(input("digite o o numero de horas que trabalha por mês: ")))
 sal_brut = val_h * horas
 
 impost_rend_dict = {
-    900 : 0,
+    900: 0,
     1500: 5,
     2500: 10,
     float("inf"): 20,
@@ -36,17 +36,17 @@ for faixa, percent in impost_rend_dict.items():
             desc_imp_rend = 0
             break
         else:
-            desc_imp_rend = sal_brut * (percent/100)
+            desc_imp_rend = sal_brut * (percent / 100)
             break
 
-desc_inss = sal_brut * (10/100)
-desc_fgts = sal_brut * (11/100)
+desc_inss = sal_brut * (10 / 100)
+desc_fgts = sal_brut * (11 / 100)
 total_desc = desc_imp_rend + desc_inss
 sal_liq = sal_brut - total_desc
 
 print(f"""
     Salário Bruto: ({horas} * {val_h})        : R$ {sal_brut}
-    (-) IR (5%)                     : R$   {desc_imp_rend} 
+    (-) IR (5%)                     : R$   {desc_imp_rend}
     (-) INSS ( 10%)                 : R$  {desc_inss}
     FGTS (11%)                      : R$  {desc_fgts}
     Total de descontos              : R$  {total_desc}

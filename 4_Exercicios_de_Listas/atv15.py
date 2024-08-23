@@ -18,12 +18,12 @@ while True:
         break
     list_num.append(c)
 
-print(f'valores lidos {len(list_num)}')
-[print(list_num[x], end='-') for x in range(len(list_num))]
+print(f"valores lidos {len(list_num)}")
+[print(list_num[x], end="-") for x in range(len(list_num))]
 print(list_num[::-1])
-print(f'soma {sum(list_num)}')
+print(f"soma {sum(list_num)}")
 media = sum(list_num) / len(list_num)
-print(f'Media {media}')
+print(f"Media {media}")
 acima_da_media = list()
 acima_de_7 = list()
 for x in list_num:
@@ -32,6 +32,6 @@ for x in list_num:
     if x > 7:
         acima_de_7.append(x)
 
-print(f'Quantidade acima da media {len(acima_da_media)}')
-print(f'Numeros acima de 7 {len(acima_de_7)}')
-print('mensagem')
+print(f"Quantidade acima da media {len(acima_da_media)}")
+print(f"Numeros acima de 7 {len(acima_de_7)}")
+print("mensagem")

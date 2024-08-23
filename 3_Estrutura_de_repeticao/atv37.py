@@ -16,15 +16,11 @@ digitar 0 para
 media peso e altura
 """
 
+# TODO estrutura de repeticão
 
-
-
-
-
-
-stg = 'kaka-kaka-kaka'
+stg = "kaka-kaka-kaka"
 
 print(stg.split("-"))
 a = stg.split("-")
 
-print(' '.join(a))
+print(" ".join(a))

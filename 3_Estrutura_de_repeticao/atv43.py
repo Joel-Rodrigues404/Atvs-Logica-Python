@@ -22,7 +22,7 @@ while True:
     pedido = abs(
         int(
             input(
-                f"""digite o codigo do pedido que deseja: 
+                """digite o codigo do pedido que deseja: 
 Especificação   Código  Preço
 Cachorro Quente 100     R$ 1,20
 Bauru Simples   101     R$ 1,30

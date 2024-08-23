@@ -7,5 +7,5 @@ nota = input("ditite a nota do aluno entre 0 e 10: ")
 
 while not nota.isnumeric():
     nota = input("ditite a nota do aluno entre 0 e 10: ")
-    
-print(f'A nota e {nota}')
+
+print(f"A nota e {nota}")

@@ -8,11 +8,11 @@ num_maior = 0
 altura_maior = 0
 
 for x in range(10):
-    num = abs(int(input('numero da chamada: ')))
-    altura = abs(int(input('altura do aluno: ')))
+    num = abs(int(input("numero da chamada: ")))
+    altura = abs(int(input("altura do aluno: ")))
 
     if altura > altura_maior:
         num_maior = num
         altura_maior = altura
 
-print(f'A maior altura e do aluno de numero {num_maior} com {altura_maior}')
+print(f"A maior altura e do aluno de numero {num_maior} com {altura_maior}")

@@ -13,4 +13,4 @@ for x in range(10):
     else:
         cont_impar += 1
 
-print(f'Pares {cont_par} \nImpares {cont_impar}')
+print(f"Pares {cont_par} \nImpares {cont_impar}")

@@ -10,7 +10,7 @@ num1 = float(input("num1: "))
 num2 = float(input("num2: "))
 
 operacao = abs(int(input("""
-Escolha a operacão 
+Escolha a operacão
 [1] Adição
 [2] Subtração
 [3] Multiplição
@@ -18,7 +18,7 @@ Escolha a operacão
 > """)))
 
 if operacao == 1:
-    result = num1 + num2    
+    result = num1 + num2
 elif operacao == 2:
     result = num1 - num2
 elif operacao == 3:
@@ -26,24 +26,25 @@ elif operacao == 3:
 elif operacao == 4:
     result = num1 / num2
 else:
-    print(f'Digite um valor valido')
+    print('Digite um valor valido')
 
 if result % 2 == 0:
-    print(f'par')
+    print('par')
 else:
-    print(f'impar')
+    print('impar')
 
 if result > 0:
-    print(f'Positivo')
+    print('Positivo')
 
 elif result < 0:
-    print(f'Negativo')
+    print('Negativo')
 
 else:
-    print(f'zero')
+    print('zero')
+
 if type(result) == int:
-    print(f'Inteiro')
+    print('Inteiro')
 elif type(result) == float:
-    print(f'decimal')
+    print('decimal')
 else:
-    print(f'zero')
+    print('zero')

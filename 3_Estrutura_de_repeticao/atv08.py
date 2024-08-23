@@ -10,5 +10,5 @@ for x in range(rep):
     soma += num
 
 media = soma / rep
-    
-print(f'A media eh {media}')
+
+print(f"A media eh {media}")

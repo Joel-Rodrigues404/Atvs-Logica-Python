@@ -15,5 +15,4 @@ qtde_pedidos = abs(int(input("digite a quantidades de pedidos: ")))
 
 if qtde_pedidos > 0 and qtde_pedidos < 50:
     for x in range(1, qtde_pedidos + 1):
-        print(f'{x} - {1.99 * x}')
-
+        print(f"{x} - {1.99 * x}")

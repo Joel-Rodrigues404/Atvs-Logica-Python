@@ -11,13 +11,11 @@ while True:
         break
     num1 = 0
     num2 = 1
-    num3 = 0 
-    print(f'{num1} {num2}', end=' ')
+    num3 = 0
+    print(f"{num1} {num2}", end=" ")
     for x in range(n):
         num3 = num1 + num2
         num1 = num2
         num2 = num3
 
-        print(f'{num3}', end=' ')
-
-
+        print(f"{num3}", end=" ")

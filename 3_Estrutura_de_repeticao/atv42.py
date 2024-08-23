@@ -20,4 +20,6 @@ while True:
     elif num < 0:
         break
 
-print(f'interv_1 {interv_1} interv_2 {interv_2} interv_3 {interv_3} interv_4 {interv_4}')
+print(
+    f"interv_1 {interv_1} interv_2 {interv_2} interv_3 {interv_3} interv_4 {interv_4}"
+)

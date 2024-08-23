@@ -10,5 +10,5 @@ for x in range(num_notas):
     soma += notas
 
 
-media = soma/num_notas
+media = soma / num_notas
 print(media)

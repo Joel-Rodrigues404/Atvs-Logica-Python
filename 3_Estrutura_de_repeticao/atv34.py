@@ -14,4 +14,4 @@ while cont <= num:
     cont += 1
 
 if divisores == 2:
-    print(f'O numero {num} e primo!')
+    print(f"O numero {num} e primo!")

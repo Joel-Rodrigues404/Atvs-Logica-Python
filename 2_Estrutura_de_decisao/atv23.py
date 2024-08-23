@@ -8,8 +8,8 @@ num = float(input("digite um numero: "))
 print(num)
 
 if num.is_integer():
-    print('inteiro')
+    print("inteiro")
 elif not num.is_integer():
-    print('decimal')
+    print("decimal")
 else:
-    print('erro')
+    print("erro")

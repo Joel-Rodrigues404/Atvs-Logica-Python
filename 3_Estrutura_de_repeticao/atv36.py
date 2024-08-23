@@ -1,5 +1,5 @@
-# Desenvolva um programa que faça a tabuada de um número qualquer inteiro que será digitado pelo 
-# usuário, mas a tabuada não deve necessariamente iniciar em 1 e terminar em 10, o valor inicial e final 
+# Desenvolva um programa que faça a tabuada de um número qualquer inteiro que será digitado pelo
+# usuário, mas a tabuada não deve necessariamente iniciar em 1 e terminar em 10, o valor inicial e final
 # devem ser informados também pelo usuário, conforme exemplo abaixo:
 # Montar a tabuada de: 5
 # Começar por: 4
@@ -20,4 +20,4 @@ if fim < ini:
     raise ValueError("o numero final deve ser maior que o inicial")
 else:
     for x in range(ini, fim + 1):
-        print(f'{tab} x {x} = {tab*x}')
+        print(f"{tab} x {x} = {tab * x}")

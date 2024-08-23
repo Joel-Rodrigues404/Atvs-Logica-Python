@@ -9,4 +9,4 @@ if sx in 'Ff':
 elif sx in 'Mm':
     print('masculino')
 else:
-    print(f'sexo invalido')
+    print('sexo invalido')

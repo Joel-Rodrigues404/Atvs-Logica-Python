@@ -29,3 +29,5 @@ Total gasto com abonos: R$ 1400.00
 Valor mínimo pago a 3 colaboradores
 Maior valor de abono pago: R$ 900.00
 """
+
+# TODO Exercicios de listas

@@ -9,7 +9,7 @@ O programa deve no final emitir uma classificação sobre a participação da pe
 """
 
 respostas_positivas = []
-print('responda as perguntas a seguir [1] = sim [2] = não')
+print("responda as perguntas a seguir [1] = sim [2] = não")
 p1 = abs(int(input("Telefonou Para a vitima: ")))
 p2 = abs(int(input("Esteve no local do crime: ")))
 p3 = abs(int(input("Mora perto da vítima: ")))
@@ -17,19 +17,19 @@ p4 = abs(int(input("Devia para a vítima: ")))
 p5 = abs(int(input("á trabalhou com a vítima: ")))
 
 if p1 == 1:
-    respostas_positivas.append('sim')
+    respostas_positivas.append("sim")
 if p2 == 1:
-    respostas_positivas.append('sim')
+    respostas_positivas.append("sim")
 if p3 == 1:
-    respostas_positivas.append('sim')
+    respostas_positivas.append("sim")
 if p4 == 1:
-    respostas_positivas.append('sim')
+    respostas_positivas.append("sim")
 if p5 == 1:
-    respostas_positivas.append('sim')
+    respostas_positivas.append("sim")
 
 if len(respostas_positivas) == 2:
-    print('Suspeito')
+    print("Suspeito")
 elif len(respostas_positivas) >= 3 and len(respostas_positivas) <= 4:
-    print('Cumplice')
+    print("Cumplice")
 else:
-    print('Assasino')
+    print("Assasino")

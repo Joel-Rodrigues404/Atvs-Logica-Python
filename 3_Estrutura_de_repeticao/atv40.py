@@ -9,3 +9,4 @@ Qual a média de veículos nas cinco cidades juntas;
 Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.
 """
 
+# TODO estrutura de repeticão

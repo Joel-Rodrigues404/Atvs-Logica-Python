@@ -15,4 +15,4 @@ Troco: R$ 11.00
 ...
 """
 
-#TODO Repetiçao fazer essa depois
+# TODO estrutura de repeticão

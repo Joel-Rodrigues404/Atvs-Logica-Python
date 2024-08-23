@@ -11,6 +11,6 @@ for x in range(qtde_cd):
     valor_cd = abs(int(input("digite o valor de cada cd em ordem: ")))
     soma += valor_cd
 
-media = soma/qtde_cd
+media = soma / qtde_cd
 
-print(f'A media do valor de cada cd é {media}\nE o total investido foi {soma}')
+print(f"A media do valor de cada cd é {media}\nE o total investido foi {soma}")

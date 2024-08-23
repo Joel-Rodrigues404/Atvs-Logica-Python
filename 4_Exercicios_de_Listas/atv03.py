@@ -7,8 +7,8 @@ for x in range(4):
     num = abs(int(input("digite o num: ")))
     lista.append(num)
 
-print(f'As notas são')
+print("As notas são")
 for x in lista:
-    print(f'{x}', end=', ')
+    print(f"{x}", end=", ")
 
-print(f'A media eh {(sum(lista)) / 4}')
+print(f"A media eh {(sum(lista)) / 4}")

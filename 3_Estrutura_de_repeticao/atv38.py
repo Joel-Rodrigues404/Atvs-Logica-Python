@@ -8,7 +8,7 @@ Após concluir isto, altere o programa permitindo que o usuário digite o salár
 """
 
 s_ini = 1000
-perc = 1.5/100
+perc = 1.5 / 100
 
 novo_sal = 0
 aumento = 0

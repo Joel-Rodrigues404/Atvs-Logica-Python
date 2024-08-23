@@ -14,32 +14,35 @@ R$ 1.000,00     0               1                       R$  1.000,00
 R$ 1.100,00     100             3                       R$    366,00
 R$ 1.150,00     150             6                       R$    191,67
 """
+
 a = True
 while a:
     valor_divida = abs(float(input("digite o valor da divida: ")))
-    parcelas = abs(int(input("Escolha a quantidade de parcelas entre 1, 3, 6, 9, 12: ")))
+    parcelas = abs(
+        int(input("Escolha a quantidade de parcelas entre 1, 3, 6, 9, 12: "))
+    )
     if parcelas == 1:
         juros = 0
     elif parcelas == 3:
-        juros = valor_divida * 1/10
+        juros = valor_divida * 1 / 10
     elif parcelas == 6:
-        juros = valor_divida * 15/100
+        juros = valor_divida * 15 / 100
     elif parcelas == 9:
-        juros = valor_divida * 2/10
+        juros = valor_divida * 2 / 10
     elif parcelas == 12:
-        juros = valor_divida * 25/100
+        juros = valor_divida * 25 / 100
     else:
-        raise ValueError('Insira as parcelas corretamente!')
+        raise ValueError("Insira as parcelas corretamente!")
 
-    valor_parcela = (valor_divida + juros)/parcelas
-    
-    print(f'{valor_divida + juros}R$    {juros} juros   {parcelas} parcelas    {valor_parcela:2f}')
-    escolha = abs(int(input('deseja continuar [1] sim [2] nao')))
+    valor_parcela = (valor_divida + juros) / parcelas
+
+    print(
+        f"{valor_divida + juros}R$    {juros} juros   {parcelas} parcelas    {valor_parcela:2f}"
+    )
+    escolha = abs(int(input("deseja continuar [1] sim [2] nao")))
     if escolha == 1:
         continue
     elif escolha == 2:
         a = False
     else:
         raise ValueError("digite a corretamente")
-    
-

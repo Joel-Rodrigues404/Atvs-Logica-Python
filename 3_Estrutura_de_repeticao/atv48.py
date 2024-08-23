@@ -5,9 +5,9 @@ Exemplo:
   => 98467321
 """
 
-num = abs(int(input('digite um numero: ')))
+num = abs(int(input("digite um numero: ")))
 
 num = str(num)
 
 for x in range(len(num) - 1, -1, -1):
-    print(num[x], end='')
+    print(num[x], end="")

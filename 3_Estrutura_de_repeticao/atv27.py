@@ -12,4 +12,4 @@ for x in range(num_turm):
 
 media = soma / num_turm
 
-print(f'A media de alunos por turma eh {media}')
+print(f"A media de alunos por turma eh {media}")

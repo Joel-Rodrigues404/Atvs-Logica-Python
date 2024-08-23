@@ -11,5 +11,4 @@ Tabuada de 5:
 num = abs(int(input("digite um numro para ver sua tabuada: ")))
 
 for x in range(1, 11):
-    print(f'{num} X {x} = {num*x}')
-
+    print(f"{num} X {x} = {num * x}")

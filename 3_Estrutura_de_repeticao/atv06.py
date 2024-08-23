@@ -17,7 +17,7 @@ while True:
             if cont == 20:
                 print(cont)
             else:
-                print(cont, end=' ')
+                print(cont, end=" ")
             cont += 1
     else:
-        print(f'Entrada invalida')
+        print("Entrada invalida")

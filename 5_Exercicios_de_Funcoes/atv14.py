@@ -14,3 +14,4 @@ Quadrado mágico. Um quadrado mágico é aquele dividido em linhas e colunas, co
 # print(qm_model)
 # print(qm[0][1])
 
+# TODO Exercicios de funçoes (extreme)

@@ -7,21 +7,19 @@ A mensagem "Aprovado com Distinção", se a média for igual a 10.
 """
 
 notas = []
-for x in range(1,4):
-    notas.append(input(f'digite a nota {x}: '))
+for x in range(1, 4):
+    notas.append(input(f"digite a nota {x}: "))
 
 # nota1, nota2, nota3 = map(float, notas)
 
 soma = sum(notas)
-media = soma/3
+media = soma / 3
 
 if media >= 7:
-    print(f'Aprovado')
+    print("Aprovado")
 elif media < 7:
-    print('Reprovado')
+    print("Reprovado")
 elif media == 10:
-    print('Aprovado com Dinstinção')
+    print("Aprovado com Dinstinção")
 else:
-    print('ERRO')
-
-
+    print("ERRO")

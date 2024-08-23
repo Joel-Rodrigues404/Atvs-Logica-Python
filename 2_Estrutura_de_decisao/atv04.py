@@ -1,5 +1,6 @@
 # Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
-letra = input(f'digite uma letra: ')
+
+letra = input('digite uma letra: ')
 
 
 if letra.isalpha():
@@ -8,4 +9,4 @@ if letra.isalpha():
     else:
         print(f'A letra e uma {letra} consoante')
 else:
-    print(f'Digite uma letra')
+    print('Digite uma letra')

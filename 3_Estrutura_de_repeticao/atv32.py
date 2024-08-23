@@ -5,7 +5,7 @@ Fatorial de: 5
 5! =  5 . 4 . 3 . 2 . 1 = 120
 """
 
-fat = abs(int(input('digite o nome: ')))
+fat = abs(int(input("digite o nome: ")))
 
 fat1 = fat
 soma = 1
@@ -13,6 +13,6 @@ cont = fat
 for x in range(1, fat + 1):
     soma *= fat1
     fat1 -= 1
-    print(f'{cont} . ', end='') 
+    print(f"{cont} . ", end="")
     cont -= 1
-print(f' = {soma}')
+print(f" = {soma}")

@@ -12,6 +12,6 @@ if peso > 50:
     multa = excesso * 4
     print(f'João excedeu {excesso}Kg a mais do limite de 50kg então pagara uma multa de {multa}R$')
 elif peso == 50:
-    print(f'Sem multa joão pescou exatamente 50Kg aproveitou ao maximo')
+    print('Sem multa joão pescou exatamente 50Kg aproveitou ao maximo')
 else:
-    print(f'Sem multa peso menor que 50Kg Não aproveitou tão bem')
+    print('Sem multa peso menor que 50Kg Não aproveitou tão bem')

@@ -7,11 +7,10 @@ num_int1 = int(input('digite um numero inteiro : '))
 num_int2 = int(input('digite um numero inteiro : '))
 num_float = float(input('digite um numero real : '))
 
-mult = (2 * num_int1) * (num_int2/2)
+mult = (2 * num_int1) * (num_int2 / 2)
 soma = (3 * num_int1) + (num_float)
 potenc = num_float**3
 
 print(f'resposta A ({mult})')
 print(f'resposta B ({soma})')
 print(f'resposta C ({potenc})')
-

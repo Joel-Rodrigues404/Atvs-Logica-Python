@@ -9,10 +9,9 @@ aux = num - 1
 while cont > 0:
     if aux == 0:
         aux = 1
-    num *= (aux)
+    num *= aux
     cont -= 1
     aux -= 1
 
-    
-    
+
 print(num)

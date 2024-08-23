@@ -4,5 +4,4 @@ idade da turma varia entre 0 e 25,26 e 60 e maior que 60; e então, dizer se a t
 conforme a média calculada.
 """
 
-
-
+# TODO estrutura de repeticão
