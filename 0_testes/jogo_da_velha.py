@@ -43,7 +43,8 @@ def mostra_tabela(matriz):
 
     for i, x in enumerate(matriz):
         for j, y in enumerate(x):
-            print(f'{i if j == 0 else ''} {y}', end='\n' if j == 2 else '|')
+            print(f'{i if j == 0 else ''} {
+                  'x' if y == 1 else 'o' if y == 0 else y}', end='\n' if j == 2 else '|')
 
 
 def edita_tabela():
