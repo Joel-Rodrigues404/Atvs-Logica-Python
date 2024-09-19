@@ -70,9 +70,11 @@ def edita_tabela(valor):
 
 
 def soma_listas(lista):
-    if sum(lista) == 3:
+    soma = sum(lista)
+
+    if soma == 3:
         return "Jogador 1"
-    elif sum(lista) == 0:
+    elif soma == 0:
         return "Jogador 2"
     return False
 
@@ -169,6 +171,6 @@ for x in range(1, 10):
         mostra_tabela(matriz=matriz)
     edita_tabela(valor=valor)
 
-    if x > 2:
+    if x > 4:
         if verifica_vencedor(matriz=matriz) is not False:
             break
