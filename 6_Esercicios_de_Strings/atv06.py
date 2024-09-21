@@ -8,9 +8,10 @@ por extenso.
 
 data_de_nascimento = input(
     "digite sua data de nascimento no formato (dd/mm/aaaa): ")
-
-print(data_de_nascimento[data_de_nascimento.find(
+dia = data_de_nascimento[0:2]
+mes = int(data_de_nascimento[data_de_nascimento.find(
     '/') + 1:data_de_nascimento.find('/') + 3])
+ano = data_de_nascimento[-4:]
 
 meses = [
     "Janeiro",
@@ -27,4 +28,4 @@ meses = [
     "Dezenbro"
 ]
 
-print('')
+print(f'Você nasceu em {dia} de {meses[mes - 1]} de {ano}.')
