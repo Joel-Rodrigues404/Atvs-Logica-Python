@@ -1,6 +1,3 @@
-def teste():
-    return False or False or "ganhador 1" or False
+variaveis = [(1, 2, 3), (4, 5, 6)]
 
-
-a = teste()
-print(a)
+print(','.join(*variaveis))
