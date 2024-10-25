@@ -20,8 +20,19 @@ e métodos que:
 """
 
 
-class bombaCombustível():
-    def __init__(self, ):
+class Carro():
+    def __init__(self, nome, marca):
+        self.nome = nome
+        self.marca = marca
+        self.tanque_litros = 0
+
+
+class BombaCombustível():
+    def __init__(self):
         self.tipo_combustivel = []
         self.valor_litro = 6.07
         self.quantidade_combustivel = 0
+
+
+tesla = Carro(nome='tesla', marca='Tesla')
+bomba_de_combustivel = BombaCombustível()
