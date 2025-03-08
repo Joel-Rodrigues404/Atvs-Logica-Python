@@ -15,7 +15,7 @@
 5. [ExerciciosFuncoes](https://wiki.python.org.br/ExerciciosFuncoes) -- fazendo | 11/ 14
 6. [ExerciciosComStrings](https://wiki.python.org.br/ExerciciosComStrings) -- Fazendo | 13 / 14
 7. [ExerciciosArquivos](https://wiki.python.org.br/ExerciciosArquivos) -- A fazer | 0 / 2
-8. [ExerciciosClasses](https://wiki.python.org.br/ExerciciosClasses) -- A fazer | 0 / 17
+8. [ExerciciosClasses](https://wiki.python.org.br/ExerciciosClasses) -- A fazer | 11 / 17
 9. [ListaDeExerciciosProjetos](https://wiki.python.org.br/ListaDeExerciciosProjetos) -- A fazer | 0 / 3
 
 ## Total de atividades/desafios/outros/testes feitas = 148.py

@@ -31,9 +31,7 @@ class Carro():
         self.quantidade_no_tanque += qtd_litros
 
 
-# 15 quilômetros por litro de combustível.
 meuFusca = Carro(consumo=15, quantidade_no_tanque=20)
-meuFusca.adicionar_gasolina(20)  # abastece com 20 litros de combustível.
-meuFusca.andar(100)            # anda 100 quilômetros.
-# Imprime o combustível que resta no tanque.
+meuFusca.adicionar_gasolina(20)
+meuFusca.andar(100)
 meuFusca.obter_gasolina()
