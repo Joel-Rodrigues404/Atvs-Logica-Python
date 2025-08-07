@@ -8,8 +8,4 @@ da validação dos dígitos verificadores edos caracteres de formatação.
 
 # TODO atividade 09 strings
 
-cpf = input("Digite seu cpf: ")
 
-if cpf.count(".") != 3 or cpf.count("-") != 1 or len(cpf) != 14:
-    print("CPF invalido!!!")
-else:
